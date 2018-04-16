@@ -1,0 +1,12 @@
+Dose not working:
+isEmpty();
+removeBack();
+removeFront();
+addBack();
+
+
+Reason:
+isEmpty(): It always return a True no mater the list is empty or not
+addBack():  The addBack() is same as the addFront(), so the order is wrong;
+removeBack() & removeFront(): I think the two functions have the same problem.
+They do not decrease the size or node of the list. Actually, they didn't remove anything;
